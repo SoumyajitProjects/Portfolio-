@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumyajit Karforma - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Soumyajit Karforma</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#technologies" class="nav-link">Technologies</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Soumyajit Karforma</h1>
+                <h2 class="hero-subtitle">Software Engineer</h2>
+                <p class="hero-description">
+                    Hi! I’m Soumyajit Karforma, a Computer Engineering student at the University of Waterloo, currently exploring new grad opportunities. I’m always excited to chat about anything related to machine learning, AI, or software development—feel free to reach out!
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        View My Work
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        More Info
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello, I'm an aspiring Software Engineer</h3>
+                    <p>
+                        I am a current Computer Engineering Student with a passion for building intelligent, real-world systems. 
+                        From LLM-powered chatbots to AI-driven robotics, I enjoy turning complex ideas into practical solutions. 
+                        I focus on creating impactful, scalable software that blends solid engineering with thoughtful design.
+                    </p>
+                    <p>
+                        My journey in tech started with curiosity and grew through hands-on experience in internships and personal projects. 
+                        Whether I’m building AI systems or debugging embedded code, I focus on writing solutions that are reliable, scalable, and built to last. 
+                        I’m always learning and driven by a desire to solve meaningful problems.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>2+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>6+</h4>
+                            <p>Internships Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>15+</h4>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/photo.png" alt="Soumyajit Karforma">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">My Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Software Engineering Intern</h3>
+                        <h4>Sun Life Financial Inc.</h4>
+                        <span class="timeline-date">January 2025 - Present</span>
+                        <ul>
+                            <li>
+                                Optimized a production-grade LLM chatbot using AWS Bedrock (Claude 3.5), Lambda, and pgvector-enabled PostgreSQL to deliver support across 10+ internal systems using retrieval-augmented generation (RAG).
+                            </li>
+                            <li>
+                                Designed an S3 ingestion pipeline with Python and AWS Glue to extract documentation from PDF/HTML Confluence pages, improving LLM answer accuracy by 30%.
+                            </li>
+                            <li>
+                                Engineered 20+ prompt variations for frequently accessed APIs and evaluated their responses against existing Confluence documentation, resulting in a 22% improvement in retrieval consistency compared to the baseline prompts.
+                            </li>
+                            <li>
+                                Implemented Splunk dashboards with custom SPL queries to monitor RAG chatbot metrics—query volume, latency, and error rates—enabling proactive incident detection and reducing troubleshooting time by 40%.
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Splunk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Robotics Software Engineering Intern</h3>
+                        <h4>Pearl Sullivan Engineering Ideas Clinic</h4>
+                        <span class="timeline-date">January 2025 – April 2025, Waterloo, ON</span>
+                        <ul>
+                            <li>
+                                Built an AI navigation system for Automated ground vehicles using ROS2, Python, and OpenCV that achieved 90% collision avoidance in dynamic environments.
+                            </li>
+                            <li>
+                                Implemented stop sign detection using OpenCV and trained the model on 20+ hours of real-world driving footage, improving rule-based compliance by 95% in simulation.
+                            </li>
+                            <li>
+                                Designed and containerized automated ground vehicle software environment with Docker, reducing setup errors by 80% and enabling consistent multi-platform testing.
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">ROS2</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Software Engineering Intern</h3>
+                        <h4>Sun Life Financial Inc.</h4>
+                        <span class="timeline-date">January 2024 – April 2024, Toronto, ON</span>
+                        <ul>
+                            <li>
+                                Developed an automated incident notification pipeline using Microsoft Teams APIs, Ansible, YAML, and PowerShell to deliver over 100 real-time alerts daily, improving response time and visibility for infrastructure incidents.
+                            </li>
+                            <li>
+                                Containerized patching and deployment workflows using Docker and integrated them with Kubernetes and Jenkins CI/CD pipelines, reducing rollout failures by 40% and accelerating deployment times by 2x.
+                            </li>
+                            <li>
+                                Automated OS patching on 30+ MongoDB servers using Ansible and PostgreSQL, decreasing setup time from over 2 hours to under 30 minutes per server by removing manual interventions.
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Microsoft Teams API</span>
+                            <span class="tag">Ansible</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Jenkins</span>
+                            <span class="tag">PowerShell</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Software Engineering Intern</h3>
+                        <h4>Wind River Systems</h4>
+                        <span class="timeline-date">September 2022 – December 2022, Alameda, CA</span>
+                        <ul>
+                            <li>
+                                Replaced Python with Lua for runtime scripting in VxWorks RTOS, reducing system response latency by 30% due to lower memory overhead and faster interpreter performance.
+                            </li>
+                            <li>
+                                Fine-tuned real-time scheduling logic for VxWorks, minimizing task starvation and improving high-priority execution throughput by 15% in baseline simulations.
+                            </li>
+                            <li>
+                                Redesigned the C-based test suite for VxWorks by introducing parallel test execution and removing redundant validations, reducing build times by 30% and memory usage by 25% compared to the original version.
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Lua</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">C</span>
+                            <span class="tag">VxWorks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Software Engineering Intern</h3>
+                        <h4>Pearl Sullivan Engineering Ideas Clinic</h4>
+                        <span class="timeline-date">January 2022 – April 2022, Waterloo, ON</span>
+                        <ul>
+                            <li>
+                                Designed TensorFlow and PyTorch inference pipelines for autonomous vehicle perception, increasing object recognition accuracy by 20% and reducing latency by 35% compared to the initial model.
+                            </li>
+                            <li>
+                                Built an Ubuntu-based simulation environment to emulate NVIDIA Jetson Nano using virtual sensors, reducing hardware usage during prototyping by 50%.
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">Ubuntu</span>
+                            <span class="tag">NVIDIA Jetson Nano</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="section">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="tech-categories">
+            <div class="tech-category">
+                <h3>Languages</h3>
+                <div class="tech-grid">
+                    <div class="tech-item"><span>Python</span></div>
+                    <div class="tech-item"><span>Java</span></div>
+                    <div class="tech-item"><span>C/C++</span></div>
+                    <div class="tech-item"><span>TypeScript</span></div>
+                    <div class="tech-item"><span>SQL</span></div>
+                    <div class="tech-item"><span>Lua</span></div>
+                </div>
+            </div>
+            <div class="tech-category">
+                <h3>Libraries & Frameworks</h3>
+                <div class="tech-grid">
+                    <div class="tech-item"><span>NumPy</span></div>
+                    <div class="tech-item"><span>Node</span></div>
+                    <div class="tech-item"><span>React</span></div>
+                    <div class="tech-item"><span>TensorFlow</span></div>
+                    <div class="tech-item"><span>OpenCV</span></div>
+                    <div class="tech-item"><span>ROS2</span></div>
+                </div>
+            </div>
+            <div class="tech-category">
+                <h3>Tools & Technologies</h3>
+                <div class="tech-grid">
+                    <div class="tech-item"><span>AWS</span></div>
+                    <div class="tech-item"><span>MySQL</span></div>
+                    <div class="tech-item"><span>PostgreSQL</span></div>
+                    <div class="tech-item"><span>MongoDB</span></div>
+                    <div class="tech-item"><span>Ansible</span></div>
+                    <div class="tech-item"><span>Jenkins</span></div>
+                    <div class="tech-item"><span>Docker</span></div>
+                    <div class="tech-item"><span>Splunk</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+              <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                       <img src="images/project1Photo.png" alt="News Summerization & Fact-Checking Bot">
+                        <div class="project-overlay">
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small">
+                                    <i class="fas fa-eye"></i>
+                                    View Live
+                                </a>
+                                <a href="https://github.com/SoumyajitProjects/news-bot" class="btn btn-small btn-secondary" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>News Summerization & Fact-Checking Bot</h3>
+                        <p>An AI-powered news analysis tool that summarizes articles, verifies factual claims, and scores source credibility using multi-agent systems and modern NLP APIs.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">CrewAI</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">OpenAI API</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2Photo.png" alt="Gesture-Controlled Flappy Bird">
+                        <div class="project-overlay">
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small">
+                                    <i class="fas fa-eye"></i>
+                                    View Live
+                                </a>
+                                <a href="https://github.com/SoumyajitProjects/Hand-Gesture-Flappy-Bird" class="btn btn-small btn-secondary" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gesture-Controlled Flappy Bird</h3>
+                        <p>A fun twist on Flappy Bird where you control the bird using hand gestures detected through your camera. Built with HTML5 Canvas, JavaScript, and MediaPipe Hands for real-time gesture tracking.</p>
+                        <ul class="project-details">
+                            <li>Flap, dive, or glide by moving your hand up/down in the camera view</li>
+                            <li>Real-time hand tracking and gesture feedback</li>
+                            <li>Scoring, high score tracking, and keyboard backup controls</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML5 Canvas</span>
+                            <span class="tag">MediaPipe</span>
+                            <span class="tag">WebRTC</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Project Card: Premier League Title Predictor -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3Photo.png" alt="Premier League Title Predictor">
+                        <div class="project-overlay">
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small">
+                                    <i class="fas fa-eye"></i>
+                                    View Live
+                                </a>
+                                <a href="https://github.com/SoumyajitProjects/premier-league-predictor" class="btn btn-small btn-secondary" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Premier League Title Predictor</h3>
+                        <p>A machine learning-powered web application that predicts the 2025/26 Premier League season outcomes, including final table positions, points, and top scorers. Features a Random Forest model, interactive web interface, and professional table styling.</p>
+                        <ul class="project-details">
+                            <li>Season table and top scorer predictions</li>
+                            <li>AI-powered champion and points forecast</li>
+                            <li>Interactive, responsive web interface</li>
+                            <li>Customizable team/player data and model logic</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">scikit-learn</span>
+                            <span class="tag">pandas</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>skarform@uwaterloo.ca</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (289) 892 4623</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ajax, Ontario, Canada</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/soumyajitkarforma/" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/SoumyajitProjects" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/soumy_2003/" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Soumyajit Karforma. All rights reserved.</p>
+        </div>

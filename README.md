@@ -1,3 +1,4 @@
+# Netflix-Style Portfolio Website
 
 A modern, responsive portfolio website. This portfolio showcases my personal information, experience, technologies, projects, and contact details in an elegant dark theme.
 
